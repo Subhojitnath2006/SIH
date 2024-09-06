@@ -29,11 +29,27 @@ h1, h2 {
     z-index: 1000;
 }
 
-.navbar .logo a {
-    color: white;
-    font-size: 24px;
-    text-decoration: none;
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers the logo horizontally */
+    padding: 10px;
 }
+
+.logo a{
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff477e; /* Matches your theme color */
+    font-family: 'Arial', sans-serif;
+    transition: color 0.3s ease;
+}
+
+.logo a:hover {
+    color: #ff1f5e; /* Slightly darker color on hover */
+}
+
+
 
 .nav-links {
     list-style: none;
@@ -116,7 +132,10 @@ h1, h2 {
     flex: 1; /* Allows the feature items to be flexible in size */
     max-width: 200px; /* Ensures the boxes don't get too wide */
 }
-
+.feature-item a{
+    text-decoration: none;
+    color: black;
+}
 .feature-item:hover {
     transform: translateY(-10px);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);

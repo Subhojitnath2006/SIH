@@ -52,13 +52,15 @@
             </div>
             <div class="feature-item">
                 <img src="safety-tips.webp" alt="Safety Tips">
-                <h3>Safety Tips</h3>
+                <h3><a href="https://paladinsecurity.com/safety-tips/for-women/">Safety Tips</a></h3>
                 <p>Access a library of expert safety tips and resources.</p>
             </div>
             <div class="feature-item">
                 <img src="sos.jpeg" alt="SOS Alert">
                 <h3>SOS Alert</h3>
                 <p>One-click emergency alert to notify your trusted contacts.</p>
+                <!-- SOS Button -->
+                <button class="sos-button" onclick="sendSOS()">Send SOS Alert</button>
             </div>
             <div class="feature-item">
                 <img src="self-defence.jpeg" alt="Self-Defense Training">
@@ -92,10 +94,10 @@
     <section class="resources">
         <h2>Learn and Stay Informed</h2>
         <div class="resource-categories">
-            <div class="resource-item">
+            <!-- <div class="resource-item">
                 <h3>Workshops</h3>
                 <p>Schedule of upcoming self-defense and safety workshops.</p>
-            </div>
+            </div> -->
             <div class="resource-item">
                 <h3><a href="https://asiapacific.unwomen.org/en/digital-library/publications/2010/3/articles-on-women-safety">Articles</a></h3>
                 <p>Educational articles on women’s safety.</p>
@@ -151,6 +153,12 @@
         <p>&copy; 2024 Women’s Safety Platform. All rights reserved.</p>
     </footer>
 
-    <script src="script1.js"></script>
+    <script>
+        function sendSOS() {
+            alert('SOS Alert Sent!');
+            // You can also add additional code here to handle the SOS alert, like redirecting to an SOS page.
+        }
+    </script>
+
 </body>
 </html>
