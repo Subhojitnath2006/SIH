@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Women's Safety</title>
     <link rel="stylesheet" href="styles1.css">
 </head>
+
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="logo">
-            <a href="index1.html">Kavach</a>
+            <a href="index1.html"><img src="icons/kavach.webp" alt="kavach"></a>
         </div>
         <ul class="nav-links">
             <li><a href="index1.html">Home</a></li>
@@ -23,7 +25,7 @@
 
     <!-- Main Content Area -->
     <div class="main-content">
-        
+
         <!-- Hero Section -->
         <section class="hero">
             <div class="hero-content">
@@ -31,112 +33,118 @@
                 <p>Together, we create a safer world.</p>
                 <div class="cta-buttons">
                     <button class="cta primary" onclick="getHelp()">Get Help Now</button>
-                    <button class="cta secondary" onclick="learnMore()">Learn More</button>
+                    <button class="cta secondary"><a href="learn_more.html">Learn More</a></button>
                 </div>
             </div>
         </section>
 
-    <!-- Safety Features and Services -->
-    <section class="features">
-        <h2>Our Commitment to Your Safety</h2>
-        <div class="features-grid">
-            <div class="feature-item">
-                <img src="emergency_calls.jpg" alt="Emergency Contacts">
-                <h3>Emergency Contacts</h3>
-                <p>Quickly connect with emergency services.</p>
+        <!-- Safety Features and Services -->
+        <section class="features">
+            <h2>Our Commitment to Your Safety</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <img src="icons/emergency_calls.jpg" alt="Emergency Contacts">
+                    <h3><a href="emergency-numbers.html">Emergency Contacts</a></h3>
+                    <p>Quickly connect with emergency services.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="icons/safe-zone.jpg" alt="Safe Zones">
+                    <h3>Safe Zones</h3>
+                    <p>Find safe locations near you.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="icons/safety-tips.webp" alt="Safety Tips">
+                    <h3><a href="https://paladinsecurity.com/safety-tips/for-women/">Safety Tips</a></h3>
+                    <p>Access a library of expert safety tips and resources.</p>
+                </div>
+                <div class="feature-item">
+                    <img src="icons/sos.jpeg" alt="SOS Alert">
+                    <h3>SOS Alert</h3>
+                    <p>One-click emergency alert to notify your trusted contacts.</p>
+                    <button class="sos-button" onclick="sendSOS()">Send</button>
+                </div>
+                <div class="feature-item">
+                    <img src="icons/self-defence.jpeg" alt="Self-Defense Training">
+                    <h3><a href="https://youtube.com/playlist?list=PLLALQuK1NDrigB-xTBLJV4vZwOXfxbPnM&feature=shared">Self
+                            Defence Training</a></h3>
+                    <p>Learn how to protect yourself with our online classes.</p>
+                </div>
             </div>
-            <div class="feature-item">
-                <img src="safe-zone.jpg" alt="Safe Zones">
-                <h3>Safe Zones</h3>
-                <p>Find safe locations near you.</p>
-            </div>
-            <div class="feature-item">
-                <img src="safety-tips.webp" alt="Safety Tips">
-                <h3><a href="https://paladinsecurity.com/safety-tips/for-women/">Safety Tips</a></h3>
-                <p>Access a library of expert safety tips and resources.</p>
-            </div>
-            <div class="feature-item">
-                <img src="sos.jpeg" alt="SOS Alert">
-                <h3>SOS Alert</h3>
-                <p>One-click emergency alert to notify your trusted contacts.</p>
-                <!-- SOS Button -->
-                <button class="sos-button" onclick="sendSOS()">Send SOS Alert</button>
-            </div>
-            <div class="feature-item">
-                <img src="self-defence.jpeg" alt="Self-Defense Training">
-                <h3>Self-Defense Training</h3>
-                <p>Learn how to protect yourself with our online classes.</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Community and Support -->
-    <section class="community">
-        <h2>Join a Community of Empowerment</h2>
-        <p>Connect with a network of women who are here to support and uplift each other.</p>
-        <div class="community-features">
-            <div class="community-feature-item">
-                <h3>Forums</h3>
-                <p>Discuss safety, share experiences, and seek advice.</p>
+        <!-- Community and Support -->
+        <section class="community">
+            <h2>Join a Community of Empowerment</h2>
+            <p>Connect with a network of women who are here to support and uplift each other.</p>
+            <div class="community-features">
+                <div class="community-feature-item">
+                    <h3>Forums</h3>
+                    <p>Discuss safety, share experiences, and seek advice.</p>
+                </div>
+                <div class="community-feature-item">
+                    <h3>Local Meetups</h3>
+                    <p>Participate in community events and self-defense workshops.</p>
+                </div>
+                <div class="community-feature-item">
+                    <h3>Survivor Stories</h3>
+                    <p>Inspirational stories from women who have overcome challenges.</p>
+                </div>
             </div>
-            <div class="community-feature-item">
-                <h3>Local Meetups</h3>
-                <p>Participate in community events and self-defense workshops.</p>
-            </div>
-            <div class="community-feature-item">
-                <h3>Survivor Stories</h3>
-                <p>Inspirational stories from women who have overcome challenges.</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Resources and Education -->
-    <section class="resources">
-        <h2>Learn and Stay Informed</h2>
-        <div class="resource-categories">
-            <!-- <div class="resource-item">
+        <!-- Resources and Education -->
+        <section class="resources">
+            <h2>Learn and Stay Informed</h2>
+            <div class="resource-categories">
+                <!-- <div class="resource-item">
                 <h3>Workshops</h3>
                 <p>Schedule of upcoming self-defense and safety workshops.</p>
             </div> -->
-            <div class="resource-item">
-                <h3><a href="https://asiapacific.unwomen.org/en/digital-library/publications/2010/3/articles-on-women-safety">Articles</a></h3>
-                <p>Educational articles on women’s safety.</p>
+                <div class="resource-item">
+                    <h3><a
+                            href="https://asiapacific.unwomen.org/en/digital-library/publications/2010/3/articles-on-women-safety">Articles</a>
+                    </h3>
+                    <p>Educational articles on women’s safety.</p>
+                </div>
+                <div class="resource-item">
+                    <h3><a href="emergency-numbers.html">Helplines</a></h3>
+                    <p>A list of national and local helplines for immediate support.</p>
+                </div>
+                <div class="resource-item">
+                    <h3><a
+                            href="https://pib.gov.in/Pressreleaseshare.aspx?PRID=1575574#:~:text=The%20Ministry%20of%20Women%20and,of%20Women%20at%20Workplace%20(Prevention%2C">Legal
+                            Support</a></h3>
+                    <p>Information on legal rights and how to get help.</p>
+                </div>
             </div>
-            <div class="resource-item">
-                <h3><a href="emergency-numbers.html">Helplines</a></h3>
-                <p>A list of national and local helplines for immediate support.</p>
-            </div>
-            <div class="resource-item">
-                <h3>Legal Support</h3>
-                <p>Information on legal rights and how to get help.</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Testimonials -->
-    <section class="testimonials">
-        <h2>Voices of Empowerment</h2>
-        <div class="testimonial-card">
-            <p>"This platform gave me the resources and community I needed to feel safe and empowered. I'm forever grateful."</p>
-            <span>- Jane Doe</span>
-        </div>
-        <div class="testimonial-card">
-            <p>"The self-defense training has been life-changing. I feel more confident in my ability to protect myself."</p>
-            <span>- Mary Smith</span>
-        </div>
-    </section>
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <h2>Voices of Empowerment</h2>
+            <div class="testimonial-card">
+                <p>"This platform gave me the resources and community I needed to feel safe and empowered. I'm forever
+                    grateful."</p>
+                <span>- Jane Doe</span>
+            </div>
+            <div class="testimonial-card">
+                <p>"The self-defense training has been life-changing. I feel more confident in my ability to protect
+                    myself."</p>
+                <span>- Mary Smith</span>
+            </div>
+        </section>
 
-    <!-- Newsletter Signup -->
-    <section class="newsletter">
-        <h2>Stay Connected</h2>
-        <p>Subscribe to our newsletter for updates, tips, and upcoming events.</p>
-        <form class="newsletter-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <button type="submit">Subscribe</button>
-        </form>
-    </section>
-</div>
+        <!-- Newsletter Signup -->
+        <section class="newsletter">
+            <h2>Stay Connected</h2>
+            <p>Subscribe to our newsletter for updates, tips, and upcoming events.</p>
+            <form class="newsletter-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </div>
     <!-- Footer -->
     <footer>
         <div class="footer-links">
@@ -153,12 +161,41 @@
         <p>&copy; 2024 Women’s Safety Platform. All rights reserved.</p>
     </footer>
 
+    <script src="script1.js"></script>
     <script>
         function sendSOS() {
-            alert('SOS Alert Sent!');
-            // You can also add additional code here to handle the SOS alert, like redirecting to an SOS page.
+            alert("sos alert send to emergency contacts!!");
+        }
+        function getHelp() {
+            alert("SOS sent to the emergency contacts.");
         }
     </script>
-
+    <!-- <script>
+            // Predefined emergency contacts
+            const emergencyContacts = ['+1234567890', '+0987654321']; // Replace with real contacts
+            const emergencyMessage = "SOS! I need help. Please contact me immediately.";
+        
+            function triggerSOS() {
+              // Show the action buttons
+              document.getElementById('actions').style.display = 'block';
+            }
+        
+            // Send SMS to multiple contacts
+            function sendSMS() {
+              emergencyContacts.forEach(contact => {
+                // Use the `sms:` protocol to open the SMS app
+                window.location.href = `sms:${contact}?body=${encodeURIComponent(emergencyMessage)}`;
+                alert(`Sending SMS to ${contact}`);
+              });
+            }
+        
+            // Make a phone call to a predefined contact
+            function makeCall() {
+              const contactToCall = emergencyContacts[0]; // You can choose any contact here
+              window.location.href = `tel:${contactToCall}`;
+              alert(`Calling ${contactToCall}`);
+            }
+    </script> -->
 </body>
+
 </html>
