@@ -1,0 +1,33 @@
+/* Basic CSS for centering video and styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+div {
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+video {
+    display: block;
+    border-radius: 8px;
+}
+
+#cta-secondary {
+    width: 100%;
+    height: auto;
+}
+
+/* Optional: Custom video controls styling */
+video::-webkit-media-controls-panel {
+    background-color: rgba(0, 0, 0, 0.8);
+}
